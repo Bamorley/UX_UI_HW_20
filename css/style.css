@@ -1,0 +1,60 @@
+.navbar {
+    background-color: #323C3F !important;
+    max-height: 50px;
+}
+.navbar-brand img {
+    max-height: 50px; 
+}
+.nav-link {
+    color: #F8F8F8 !important;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.nav-link:hover {
+    color: #9FE2BF !important;
+}
+.jumbotron {
+    background-image: url("/images/dol-hero-image.png");
+    background-size: cover;
+    min-height: 250px;
+  }
+  .display-4 {
+    font-family: 'Alatsi', sans-serif;
+    color: #F8F8F8;
+    font-size: 50px;
+  }
+  h1 {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 36px; 
+  }
+  h2 {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 32px; 
+  }
+  h3 {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 28px; 
+  }
+  h4 {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 22px; 
+  }
+  h5 {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 18px; 
+  }
+  h6 {
+    font-family: 'Alatsi', sans-serif;
+    font-size: 15px; 
+  }
+  p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px; 
+  }
+body {
+    background-color: #F8F8F8;
+}
+#sticky-sidebar a {
+    color: #A48596;
+}
