@@ -1,3 +1,37 @@
+/*start headers and body*/
+h1 {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 36px; 
+}
+h2 {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 32px; 
+}
+h3 {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 28px; 
+}
+h4 {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 22px; 
+}
+h5 {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 18px; 
+}
+h6 {
+  font-family: 'Alatsi', sans-serif;
+  font-size: 15px; 
+}
+p {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 17px; 
+}
+body {
+  background-color: #F8F8F8;
+}
+/*end headers and body*/
+/*start navigation bar*/
 .navbar {
     background-color: #323C3F !important;
     max-height: 50px;
@@ -14,6 +48,8 @@
 .nav-link:hover {
     color: #9FE2BF !important;
 }
+/*end navigation bar*/
+/*start jumbotron*/
 .jumbotron {
     background-image: url("/images/dol-hero-image.png");
     background-size: cover;
@@ -24,40 +60,7 @@
     color: #F8F8F8;
     font-size: 50px;
   }
-  h1 {
-    font-family: 'Alatsi', sans-serif;
-    font-size: 36px; 
-  }
-  h2 {
-    font-family: 'Alatsi', sans-serif;
-    font-size: 32px; 
-  }
-  h3 {
-    font-family: 'Alatsi', sans-serif;
-    font-size: 28px; 
-  }
-  h4 {
-    font-family: 'Alatsi', sans-serif;
-    font-size: 22px; 
-  }
-  h5 {
-    font-family: 'Alatsi', sans-serif;
-    font-size: 18px; 
-  }
-  h6 {
-    font-family: 'Alatsi', sans-serif;
-    font-size: 15px; 
-  }
-  p {
-    font-family: 'Titillium Web', sans-serif;
-    font-size: 17px; 
-  }
-body {
-    background-color: #F8F8F8;
-}
-#sticky-sidebar a {
-    color: #A48596;
-}
+  /*end jumbotron*/
 /*next case study preview*/
 .grayBox {
   background-color: #323C3F;
@@ -86,3 +89,68 @@ body {
   object-fit: cover;
 }
 /*end next case study preview*/ 
+/*start sticky nav and proto persona cards*/ 
+#sticky-sidebar a {
+  color: #A48596;
+}
+.joe {
+  max-width: 220px;
+  height: auto;
+  margin-left: 50px;
+}
+.joeCard {
+  display: flex;
+  flex-direction: row;
+}
+.card {
+  background-color: #F8F8F8;
+  color: #323C3F;
+  border: solid 3px #A48596;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 17px; 
+}
+/*end sticky nav and proto persona cards*/ 
+/*start spacing*/ 
+#ideation, #definition, #iterations, #finalDesigns {
+  margin-top: 100px;
+}
+.subH2 {
+  margin-top: 50px;
+}
+h2 {
+  margin-bottom: 20px;
+  text-decoration: underline solid #9FE2BF;
+} 
+.largeImg {
+  max-width: 700px;
+}
+/*end spacing*/ 
+.carousel {
+  max-width: 700px;
+}
+.lofi {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.loImg {
+  max-width: 350px;
+  margin: 20px;
+}
+.rd1 {
+  position: relative;
+  margin: 100px;
+}
+.preimg {
+  position: absolute; 
+  top: 0;
+  left: 0; 
+  max-width: 400px;
+}
+.postimg {
+  position: absolute; 
+  bottom: 0;
+  right: 0; 
+  max-width: 400px;
+}
