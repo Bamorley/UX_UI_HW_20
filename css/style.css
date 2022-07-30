@@ -53,7 +53,7 @@ body {
 .jumbotron {
     background-image: url("/images/dol-hero-image.png");
     background-size: cover;
-    min-height: 250px;
+    min-height: 300px;
   }
   .display-4 {
     font-family: 'Alatsi', sans-serif;
@@ -111,8 +111,8 @@ body {
 }
 /*end sticky nav and proto persona cards*/ 
 /*start spacing*/ 
-#ideation, #definition, #iterations, #finalDesigns {
-  margin-top: 100px;
+#research, #ideation, #definition, #iterations, #finalDesigns {
+  margin-top: 75px;
 }
 .subH2 {
   margin-top: 50px;
