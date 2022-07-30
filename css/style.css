@@ -51,7 +51,7 @@ body {
 /*end navigation bar*/
 /*start jumbotron*/
 .jumbotron {
-    background-image: url("/images/dol-hero-image.png");
+    background-image: url("images/dol-hero-image.png");
     background-size: cover;
     min-height: 300px;
   }
